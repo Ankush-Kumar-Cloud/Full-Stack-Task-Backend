@@ -55,8 +55,6 @@ export const toggleBookmark = async (req, res) => {
 
 //getBook mark
 
-
-
 export const getBookmarks = async (req, res) => {
   try {
     const user = await User.findById(req.user._id)
